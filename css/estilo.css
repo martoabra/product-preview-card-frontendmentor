@@ -1,0 +1,69 @@
+.cream-bg {
+    background-color: hsl(30, 38%, 92%);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.tit1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    font-size: .8rem;
+    letter-spacing: 0.3em !important;
+}
+
+.tit2 {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    color: hsl(212, 21%, 14%);
+}
+
+.price1 {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    color: hsl(158, 36%, 37%)
+}
+
+.text1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+}
+
+.btn1 {
+    background-color: hsl(158, 36%, 37%)!important;
+    border-color: hsl(158, 36%, 37%)!important;
+    font-size: 14px!important;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.price2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+    text-decoration: line-through;
+}
+
+.mobile {
+    display: none;
+}
+
+@media (max-width: 991.98px) {
+    .desktop {
+        display: none;
+    }
+    .mobile {
+        display: flex;
+    }
+}
